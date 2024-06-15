@@ -1,64 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Henry C3 - HTML</title>
 </head>
+
 <body>
     <!-- Etiquetas de formato -->
 
-    <!-- Etiquetas H (Header) -->
-     <!-- Nos permiten poner en nuestras paginas una gerarquia de titulos,
+    <header>
+        <!-- Etiquetas H (Header) -->
+        <!-- Nos permiten poner en nuestras paginas una gerarquia de titulos,
       se pueden utilizar desde H1 hasta H6 -->
-    <h1>Título principal de Mi página web</h1>
+        <h1>Título principal de Mi página web</h1>
 
-    <!-- span -->
-    <!-- nos permite agrupar textos cortos en una sola linea. -->
+        <!-- span -->
+        <!-- nos permite agrupar textos cortos en una sola linea. -->
 
-    <span>HOME</span>
-    <span>Deportes</span>
-    <span>Entretenimiento</span>
+        <span>HOME</span>
+        <span>Deportes</span>
+        <span>Entretenimiento</span>
 
-    <!-- hr e una etiqueta que se cierra a si misma. nos ayuda a dividir una seccion -->
+    </header>
+
+    <main>
+
+        <img src="./img/html-tagst.jpg" alt="">
+
+
+        <!-- hr e una etiqueta que se cierra a si misma. nos ayuda a dividir una seccion -->
+        <hr />
+
+        <section>
+
+            <article>
+
+                <h2>Este es el título de una sección de Noticias.</h2>
+                <h3>Noticia del momento</h3>
+
+                <div>
+
+                    <!-- Etiqueta P -->
+                    <!-- Nos permite generar pun espacio donde tendremos parrafos especificos en nuestra pagina web -->
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquid deserunt illo perferendis
+                        voluptas
+                        earum recusandae ut hic facilis nulla, fuga architecto quos tempore explicabo vero
+                        necessitatibus
+                        quae,
+                        accusantium temporibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aut a explicabo? Velit,
+                        vero tempore? Nobis inventore, deleniti fugit ratione vero aliquid quas consequuntur, ut iusto
+                        totam harum atque ad.</p>
+                </div>
+            </article>
+
+            <hr />
+            <article>
+                <h2>Listas:</h2>
+                <h3>Ejemplos de Lista Ordenada</h3>
+
+                <!-- LISTAS -->
+
+                <!-- Lista Ordenada (ol) -->
+                <p>Esta es una Lista Ordenada</p>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+
+                <!-- Lista Desordenada (ul) -->
+                <h3>Ejemplos de Lista Desordenada</h3>
+                <p>Esta es una lista Desordenada</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Etiquetas de bloques -->
+
+    <!-- Las etiquetas de bloque son elementos que se utilizan para crear secciones de contenido en una página web. Estas etiquetas tienen un comportamiento por defecto que hace que ocupen todo el ancho disponible de su contenedor principal y se colocan en una línea nueva, lo que crea un efecto de separación vertical en el diseño de la página. -->
+
+    <!-- Etiquetas de contenido -->
+
+    <!-- Las etiquetas de contenido son aquellas que se utilizan para marcar contenido dentro de un documento HTML. Estas etiquetas permiten definir diferentes tipos de elementos, como texto, imágenes, enlaces, listas, tablas, párrafos y más, para que el navegador web pueda interpretar y mostrar el contenido de manera adecuada. -->
     <hr />
 
-    <h2>Este es el título de una sección de Noticias.</h2>
-    <h3>Noticia del momento</h3>
 
-    <!-- Etiqueta P -->
-     <!-- Nos permite generar pun espacio donde tendremos parrafos especificos en nuestra pagina web -->
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquid deserunt illo perferendis voluptas earum recusandae ut hic facilis nulla, fuga architecto quos tempore explicabo vero necessitatibus quae, accusantium temporibus.</p>
+    <footer>
+        <p>Este es el footer de mi pagina:</p>
+        <p>Miguel Ángel Cárdenas</p>
+        <!-- la etiqueta a, nos permite crear un enlace que nos puede dirigir a otra pagina o a otra seccion, esta acompañada de atributos que le indicaran a nuestro codigo que funcion realizar. -->
+        <!-- href, es un atributo que nos guiara dentro de la etiqueta a, para ir a la pagina deseada. -->
+        <a href="./contacto.html">Formulario de contacto</a>
 
-    <hr />
-
-    <h2>Listas:</h2>
-    <h3>Ejemplos de Lista Ordenada</h3>
-
-    <!-- LISTAS -->
-
-    <!-- Lista Ordenada (ol) -->
-    <p>Esta es una Lista Ordenada</p>
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
-
-    <!-- Lista Desordenada (ul) -->
-    <h3>Ejemplos de Lista Desordenada</h3>
-    <p>Esta es una lista Desordenada</p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+    </footer>
 
 
 
-
-
-    <p>Miguel Ángel Cárdenas</p>
-    
 </body>
+
 </html>
