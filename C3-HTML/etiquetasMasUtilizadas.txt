@@ -1,0 +1,58 @@
+<html>
+Encapsula todo el contenido de una página web y define el documento 
+como HTML5.
+
+<head>
+Dentro de la misma se encuentran elementos esenciales como <title>, 
+que establece el título de la página, y enlaces a hojas de estilo con 
+<link> o metadatos con <meta>.
+
+<title>
+Define el título de la página. Es crucial para la identificación y la 
+optimización de motores de búsqueda (SEO).
+
+<meta description> 
+Describe resumidamente el contenido de una página. Es visible en la SERP 
+y puede influenciar directamente en la decisión del usuario final de hacer 
+o no click en el resultado.
+
+<canonical>
+Sugiere a los motores de búsqueda qué página indexar frente a otras de 
+contenido igual o muy similar. En caso de no darse esta situación, 
+de todos modos se sugiere agregar esta etiqueta en todas las URL que se 
+deseen indexar de forma autorreferencial.
+
+<body>
+Envuelve el contenido principal, como texto, imágenes y enlaces, 
+entre otros.
+
+<h1>, <h2>, …, <h6>
+Son encabezados de diferentes niveles, donde <h1> es el más importante 
+y <h6> es el menos relevante. Permiten estructurar el contenido y 
+proporcionan la jerarquía de la información. 
+
+<p>
+Define párrafos de texto, separando el contenido para una presentación 
+clara y organizada.
+
+<a>
+Es útil para crear enlaces a otras páginas o recursos. Se utiliza con 
+el atributo href para especificar la URL de destino.
+
+<img>
+Se utiliza para insertar imágenes en la página web. El atributo src 
+especifica la ruta de la imagen.
+
+<ul>, <ol>, <li>
+Son aplicadas para crear listas desordenadas (<ul>), listas ordenadas 
+(<ol>), y elementos de lista (<li>), organizando información de manera 
+estructurada.
+
+<div> y <span>
+Son contenedores genéricos. <div> se usa para agrupar y estructurar 
+bloques de contenido, mientras que <span> se utiliza para aplicar estilos 
+a partes específicas de texto.
+
+<br> y <hr>
+<br> introduce un salto de línea, mientras que <hr> crea una línea 
+horizontal, proporcionando espacio y separación visual en la página.
