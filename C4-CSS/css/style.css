@@ -1,0 +1,24 @@
+/* selectores y gerarquia en css */
+
+
+/* podemos utilizar el nombre de la etiqueta que deseamos modificar. */
+/* Etiquetas */
+
+body{
+    background-color: cyan;
+}
+
+
+/* clases */
+/* Le podemos dar el nombre a las etiquetas que deseemos y darselo a todos los elementos que quiero compartan este mismo diseño */
+
+.nombreClase{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ID */
+/* Si deseo un diseño especifico a una unica etiqueta, podemos identificar de forma unica un elemento HTML con un ID, este nunca se debe repetir en ningun otro elemento */
+
+#idPrincipal{
+    font-size: 60px;
+}
