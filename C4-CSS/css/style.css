@@ -19,14 +19,19 @@ body{
 
 .logo{
     width: 200px;
+    height: 200px;
 }
 
 .cards{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 1em 1em;
+    padding: 1em 1em 2em 1em;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
 .cards:hover{
@@ -41,11 +46,27 @@ body{
 }
 
 #titulos{
-    border: 2px solid black;
+   
     width: 65vw;
     /* X vw - x porcentaje de la pantalla donde este */
     margin: auto;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+   
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    padding: 2em; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
 }
 
 
@@ -58,3 +79,6 @@ body{
 
 /* propiedades CSS
 https://www.mclibre.org/consultar/htmlcss/css/css-propiedades.html# */
+
+
+/* Flexbox es un valor dentro de CSS destinado a la propiedad display. Permite posicionar, alinear y direccionar los elementos HTML en la pantalla de una manera muy sencilla... */
